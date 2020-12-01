@@ -1,0 +1,650 @@
+{
+  "questionList": [
+    {
+      "id": 903,
+      "question": "The command to create Kubernetes service is",
+      "description": null,
+      "answers": {
+        "answer_a": "kubectl expose",
+        "answer_b": "kubectl deploy",
+        "answer_c": "kubectl run",
+        "answer_d": "kubectl set service",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "Kubernetes"
+        }
+      ],
+      "category": "DevOps",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 585,
+      "question": "What is the default session time in PHP?",
+      "description": null,
+      "answers": {
+        "answer_a": "The default session time in php is until the closing of the browser",
+        "answer_b": "The default session time in php is until the closing of the page",
+        "answer_c": "The default session time in php is until the closing of the system",
+        "answer_d": null,
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "PHP"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 935,
+      "question": "Which command would show you the logs of a running pod in Kubernetes?",
+      "description": null,
+      "answers": {
+        "answer_a": "kubectl print pod-name",
+        "answer_b": "kubectl log pod-name",
+        "answer_c": "kubectl show -l pod-name",
+        "answer_d": "kubectl logs pod-name",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "true",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "Kubernetes"
+        }
+      ],
+      "category": "Docker",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 127,
+      "question": "What is the correct HTML for adding a background color?",
+      "description": null,
+      "answers": {
+        "answer_a": "<body bg=\"yellow\">",
+        "answer_b": "<background>yellow</background>",
+        "answer_c": "<body style=\"background-color:yellow;\">",
+        "answer_d": "<body style bg=\"yellow\">",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "false",
+        "answer_c_correct": "true",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_c",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "HTML"
+        }
+      ],
+      "category": "",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 797,
+      "question": "What is Docker Machine?",
+      "description": null,
+      "answers": {
+        "answer_a": "Docker machine is a tool that lets you install Docker Engine on virtual hosts",
+        "answer_b": "Docker machine is a tool that lets you install Docker files on virtual hosts",
+        "answer_c": null,
+        "answer_d": null,
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "Docker"
+        }
+      ],
+      "category": "Docker",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 958,
+      "question": "In Kubernetes, a node is:",
+      "description": null,
+      "answers": {
+        "answer_a": "A tool for starting a kubernetes cluster on a local machine",
+        "answer_b": "A worker machine",
+        "answer_c": "A machine that coordinates the scheduling and management of application containers on the cluster",
+        "answer_d": null,
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "Kubernetes"
+        }
+      ],
+      "category": "DevOps",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 751,
+      "question": "How to define an array in bash",
+      "description": null,
+      "answers": {
+        "answer_a": "array=(\u201cHi\u201d \u201cmy\u201d \u201cname\u201d \u201cis\u201d)",
+        "answer_b": "array=[\u201cHi\u201d \u201cmy\u201d \u201cname\u201d \u201cis\u201d]",
+        "answer_c": "array=[[\u201cHi\u201d \u201cmy\u201d \u201cname\u201d \u201cis\u201d]]",
+        "answer_d": "array=((\u201cHi\u201d \u201cmy\u201d \u201cname\u201d \u201cis\u201d))",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "BASH"
+        },
+        {
+          "name": "Linux"
+        }
+      ],
+      "category": "Linux",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 718,
+      "question": "Which command is used to create a Kubernetes service?",
+      "description": null,
+      "answers": {
+        "answer_a": "kubectl set service",
+        "answer_b": "kubectl create service",
+        "answer_c": "kubectl deploy service",
+        "answer_d": "kubectl expose",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "true",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "Kubernetes"
+        }
+      ],
+      "category": "Linux",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 162,
+      "question": "Which HTML element is used to specify a header for a document or section?",
+      "description": null,
+      "answers": {
+        "answer_a": "<top>",
+        "answer_b": "<header>",
+        "answer_c": "<head>",
+        "answer_d": "<section>",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_b",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "HTML"
+        }
+      ],
+      "category": "Linux",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 799,
+      "question": "How do you get the number of containers running, paused and stopped?",
+      "description": null,
+      "answers": {
+        "answer_a": "docker info",
+        "answer_b": "sudo --docker info",
+        "answer_c": "docker --info",
+        "answer_d": null,
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "Docker"
+        }
+      ],
+      "category": "Docker",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 670,
+      "question": "Which is the invalid file name in UNIX?",
+      "description": null,
+      "answers": {
+        "answer_a": "LINUX",
+        "answer_b": "a.widows",
+        "answer_c": "bill .gates",
+        "answer_d": "All of the above",
+        "answer_e": "None of the above",
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "true",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "BASH"
+        }
+      ],
+      "category": "Linux",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 154,
+      "question": "In HTML, onblur and onfocus are:",
+      "description": null,
+      "answers": {
+        "answer_a": "Style attributes",
+        "answer_b": "HTML elements",
+        "answer_c": "Event attributes",
+        "answer_d": "Text styles",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "false",
+        "answer_c_correct": "true",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_c",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "HTML"
+        }
+      ],
+      "category": "",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 573,
+      "question": "Which of the following is not true?",
+      "description": null,
+      "answers": {
+        "answer_a": "PHP can be used to develop web applications.",
+        "answer_b": "PHP can not be embedded into html.",
+        "answer_c": "PHP applications can not be compiled",
+        "answer_d": "PHP makes a website dynamic",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "PHP"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 1015,
+      "question": "What Are Kubernetes Controllers?",
+      "description": null,
+      "answers": {
+        "answer_a": "Kubernetes controllers are Replicaset, Deployment controller.",
+        "answer_b": "Kubernetes controllers are Surverless, Deployment capacitor.",
+        "answer_c": null,
+        "answer_d": null,
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "Kubernetes"
+        }
+      ],
+      "category": "DevOps",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 733,
+      "question": "How to watch rolling update status of \"frontend\" deployment until completion in Kubernetes?",
+      "description": null,
+      "answers": {
+        "answer_a": "kubectl rollout status --live deployment/frontend",
+        "answer_b": "kubectl rollout status -w deployment/frontend",
+        "answer_c": "kubectl rollout status -l deployment/frontend",
+        "answer_d": "kubectl rollout status -s deployment/frontend",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "Kubernetes"
+        }
+      ],
+      "category": "Linux",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 688,
+      "question": "What is an internal command?",
+      "description": null,
+      "answers": {
+        "answer_a": "Shell built in commands are called as internal commands.",
+        "answer_b": "Shell commands which are executed on the local machine are called internal commands.",
+        "answer_c": "Every command which comes with the default installation of Linux is called internal command with some small exceptions like really old commands.",
+        "answer_d": "Every command which has been developed by the new generation of Linux is considered an internal command.",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "BASH"
+        },
+        {
+          "name": "Linux"
+        }
+      ],
+      "category": "Linux",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 1047,
+      "question": "Which Ansible command will you use to install Apache on Ubuntu host?",
+      "description": null,
+      "answers": {
+        "answer_a": "ansible your_host_name_here -b -m apt -a \"name=apache2 state=latest\"",
+        "answer_b": "ansible your_host_name_here -b -m yum -a \"name=apache2 state=latest\"",
+        "answer_c": "ansible your_host_name_here -b -m wget -a \"name=apache2 state=latest\"",
+        "answer_d": "ansible your_host_name_here apt install \"name=apache2 state=latest\"",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "DevOps"
+        }
+      ],
+      "category": "DevOps",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 65,
+      "question": "When using the POST method, variables are displayed in the URL:",
+      "description": null,
+      "answers": {
+        "answer_a": "True",
+        "answer_b": "False",
+        "answer_c": null,
+        "answer_d": null,
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_b",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "PHP"
+        }
+      ],
+      "category": "",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 519,
+      "question": "What is the correct HTML for making a hyperlink?",
+      "description": null,
+      "answers": {
+        "answer_a": "<a href=\"http://mcqsets.com\">MCQ Sets Quiz</a>",
+        "answer_b": "<http://mcqsets.com</a>",
+        "answer_c": "<a name=\"http://mcqsets.com\">MCQ Sets Quiz</a>",
+        "answer_d": "url=\"http://mcqsets.com\">MCQ Sets Quiz",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "HTML"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 717,
+      "question": "Which command is used to create a deployment in Kubernetes?",
+      "description": null,
+      "answers": {
+        "answer_a": "kubectl run",
+        "answer_b": "kubernetes set deployment",
+        "answer_c": "kubectl deploy",
+        "answer_d": "kubectl apply deployment",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "Kubernetes"
+        }
+      ],
+      "category": "Linux",
+      "difficulty": "Easy"
+    }
+  ]
+}
